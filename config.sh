@@ -7,7 +7,7 @@ LTO5_SIZE="1500*1000*1000*1000"
 LTO6_SIZE="2500*1000*1000*1000"
 
 ## Default selectin will be LTO6, but can be configured
-TAPE_SIZE=$LTO6_SIZE
+TAPE_SIZE=$LTO4_SIZE
 
 TAPE_SPEED="160*1000*1000"
 BLOCK_SIZE="256K"
@@ -28,7 +28,7 @@ TAPE_BUFFER_SIZE="2G"
 
 ## Command location
 TAR=/bin/tar
-MT=/bin/mt-st
+MT=/usr/bin/mt
 MBUFFER=/usr/bin/mbuffer
 OPENSSL=/usr/bin/openssl
 
